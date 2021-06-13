@@ -39,6 +39,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
     isMasterChef: true,
   },
+   {
+    pid: 13,
+    risk: 2,
+    lpSymbol: 'xyz-bnb',
+    lpAddresses: {
+      97: '0x335a12850ed615cff00e16a21a74a66c99cc56d0',
+      56: '0x335a12850ed615cff00e16a21a74a66c99cc56d0',
+    },
+    tokenSymbol: 'xyz',
+    tokenAddresses: {
+      97: '0xa93659490d4e73365B4d66c014A2704a60106Bd2',
+      56: '0xa93659490d4e73365B4d66c014A2704a60106Bd2',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+    isMasterChef: true,
+  },
   {
     pid: 2,
     risk: 2,
